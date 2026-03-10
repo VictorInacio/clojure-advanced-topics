@@ -1,12 +1,12 @@
-{:deps {org.clojure/clojure {:mvn/version "1.12.0"}
-        org.clojure/core.async {:mvn/version "1.6.681"}}
+{:deps {org.clojure/clojure {:mvn/version "1.12.4"}
+        org.clojure/core.async {:mvn/version "1.9.829-alpha2"}}
 
  :aliases
  {:nrepl
-  {:extra-deps {nrepl/nrepl {:mvn/version "1.3.0"}}
+  {:extra-deps {nrepl/nrepl {:mvn/version "1.6.0"}}
    :main-opts  ["-m" "nrepl.cmdline"
                 "--port" "7888"
                 "--bind" "127.0.0.1"]}
 
-  :dev {}
+  :dev  {}
   :prod {}}}
